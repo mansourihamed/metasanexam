@@ -1,0 +1,7 @@
+{
+  "name": "metasanproject",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
