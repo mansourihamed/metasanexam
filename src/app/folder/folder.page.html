@@ -1,21 +1,77 @@
 <ion-header [translucent]="true">
+
+  <!-- start menu-->
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>{{ folder }}</ion-title>
   </ion-toolbar>
+  <!-- end menu-->
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <!--  start body-->
+
+  <ion-card class="center">
+    <img src="../../assets/img/sanaye.jpg"  alt="Silhouette of mountains" />
+    <ion-card-header>
+      <ion-card-title >صنایع پلیمر</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      انواع پلیمرها، لاستیک ها، کامپوزیت ها، مستربچ، کامپاند و افزودنی های مربوطه مانند آنتی استاتیک، آنتی یو وی و ...
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="center">
+    <img  src="../../assets/img/pushesh.jpg" alt="Silhouette of mountains" />
+    <ion-card-header>
+      <ion-card-title>پوشش ها </ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      مواد اولیه پوشش ها شامل رزین، افزودنی ها، پیگمنت و ... برای انواع مختلف پوشش های ساختمانی، خودرویی، و ...
+    </ion-card-content>
+  </ion-card>
+
+  
+  <ion-card class="center">
+    <img  src="../../assets/img/chasb.jpg" alt="Silhouette of mountains" />
+    <ion-card-header>
+      <ion-card-title >چسب ها</ion-card-title>
+    </ion-card-header>
+    
+    <ion-card-content >
+       مواد اولیه چسب ها شامل رزین، افزودنی ها، پیگمنت و ... برای انواع مختلف چسب های پایه آبی و حلالی، فشاری، حرارتی و ...
+    </ion-card-content>
+  </ion-card>
+  
+
+ 
+
+
+  <ion-card class="center">
+    <img  src="../../assets/img/arayesh.jpg" alt="Silhouette of mountains" />
+    <ion-card-header>
+      <ion-card-title>آرایشی بهداشتی</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      مواد اولیه محصولات آرایشی بهداشتی شامل رزین، افزودنی ها، پیگمنت و ... برای انواع مختلف محصولات مربوطه
+    </ion-card-content>
+  </ion-card>
+  <!-- end body-->
 </ion-content>
+
+<!-- styles-->
+<style>
+
+  .center{
+
+    text-align: center
+  }
+</style>
+
+<!-- styles-->
